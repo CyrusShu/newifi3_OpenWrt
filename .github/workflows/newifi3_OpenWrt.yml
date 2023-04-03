@@ -15,7 +15,7 @@ name: newifi3_OpenWrt
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: 0 */12 * * *
   watch:
