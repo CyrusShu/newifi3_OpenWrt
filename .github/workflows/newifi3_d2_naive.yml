@@ -10,7 +10,7 @@
 # <https://github.com/LemoFire/autoOpenWrt>
 #
 
-name: NEWIFI-D2
+name: NEWIFI-D2-Naive
 
 on:
   push:
@@ -110,6 +110,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_Obfs=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
+          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_Plugin=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
           CONFIG_PACKAGE_luci-app-wol=n
